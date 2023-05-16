@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sweet's Parlour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>The Desserts Parlour</h1>
+        <p>Welcome to our delightful online dessert shop, where a world of sugary wonders awaits you!<br>Step into a whimsical realm of delectable treats and indulge your sweet tooth to your heart's content.<br> Our virtual shelves are brimming with a colorful array of confections that will captivate your senses and transport you to a realm of pure delight.
+        </p>
+        <a href="" class="hero-btn">Tap here to know more about us....😊</a>
+    </div>    
+
+    </section>
+
+<!----menu---->
+<section class="menu">
+    <h1>Menu</h1>
+    <p>At our online dessert shop, we curate an extensive collection of sweets, mouthwatering candies, chocolates, pastries, cakes and more.<br> We take pride in offering a wide variety of treats that cater to every taste and preference, ensuring that there's something special for everyone.</p>
+    <div class="row">
+        <div class="menu-col"
+        <h3>Sweets</h3>
+        <p>Sweets, oh how they enchant our taste buds and bring a sparkle of joy to our lives!<br>These delightful confections have a magical ability to uplift our spirits and create moments of pure happiness.<br>From the moment we take that first bite, we are transported to a realm of delectable flavors and irresistible textures.</p>
+        </div><br>
+        <div class="menu-col"
+        <h3>Candies</h3>
+        <p>Candies, those delightful little treats that capture our imagination and ignite our taste buds!<br>These bite-sized wonders come in a myriad of shapes, colors, and flavors, each one offering a sweet escape into a world of pure delight.</p>
+        </div><br>
+        <div class="menu-col"
+        <h3>Chocolates</h3>
+        <p>Ah, chocolates, the irresistible jewels of the confectionery world!<br>With their rich, velvety textures and enchanting flavors, chocolates have captivated the hearts of millions around the globe.<br>They are a symbol of indulgence, luxury, and pure culinary pleasure.</p>
+        </div><br>
+        <div class="menu-col"
+        <h3>Pastries</h3>
+        <p>Pastries, the epitome of culinary artistry, bring a slice of heaven to our plates and a taste of pure indulgence to our palates.<br>These delicate and decadent creations are a testament to the skill, creativity, and craftsmanship of pastry chefs around the world.</p>
+        </div><br>
+        <div class="menu-col"
+        <h3>Cakes</h3>
+        <p>Cakes, the sweet ambassadors of celebration, hold a special place in our hearts and on our tables.<br>These delightful creations not only tempt us with their exquisite flavors but also serve as a centerpiece for joyous occasions, marking milestones and bringing people together.</p>
+        </div><br>
+        <div class="menu-col"
+        <h3>Cookies</h3>
+        <p>Cookies, the delightful morsels of baked perfection, hold a special place in our hearts and tickle our taste buds with their sweet and satisfying flavors.<br>These timeless treats have the power to transport us back to cherished childhood memories and create moments of pure bliss.</p>
+        </div>
+    </div>
+</section>
+
+<!----campus---->
+<section class="outlet">
+    <h1>Our Outlets</h1>
+    <p>Attention all dessert lovers....!<br>Get ready to satisfy your sweet cravings with our extraordinary Dessert Outlet. At The Desserts Parlour, we bring you a mouthwatering selection of discounted sweet treats that will leave you coming back for more.<br><br>Indulge in the finest desserts at unbeatable prices, right from the comfort of your own home. Our Dessert Outlet offers a delectable range of cakes, pastries, cookies, chocolates, sweets candies and so much more, all at incredible discounts. Treat yourself to a slice of heaven without breaking the bank!<br><br>At The Desserts Parlour, we believe that everyone deserves to experience the joy of indulging in high-quality desserts. That's why we carefully curate our Outlet offerings, ensuring that each dessert meets our strict standards of taste and excellence.<br>Rest assured that you will enjoy the same exceptional quality that our brand is known for.<br><br><br>Happy Shopping....!</p>
+</section>
+
+    <!----JavaScript for Toggle Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
